@@ -1,0 +1,52 @@
+{
+	"name": "contentful-starter-gatsby-blog",
+	"description": "Contentful Gatsby Starter Blog",
+	"private": true,
+	"version": "0.0.1",
+	"author": "Contentful <opensource@contentful.com>",
+	"bugs": {
+		"url": "https://github.com/contentful/starter-gatsby-blog/issues"
+	},
+	"dependencies": {
+		"babel": "^6.23.0",
+		"babel-preset-react": "^6.24.1",
+		"dotenv": "^8.1.0",
+		"express": "^4.17.1",
+		"express-graphql": "^0.9.0",
+		"fs": "0.0.1-security",
+		"gatsby": "^2.14.0",
+		"gatsby-image": "^2.2.14",
+		"gatsby-link": "^2.2.9",
+		"gatsby-plugin-react-helmet": "^3.1.5",
+		"gatsby-plugin-sass": "^2.1.12",
+		"gatsby-plugin-sharp": "^2.2.18",
+		"gatsby-plugin-zopfli": "^1.2.4",
+		"gatsby-source-contentful": "^2.1.29",
+		"gatsby-transformer-remark": "^2.6.19",
+		"graphql": "^14.5.3",
+		"lodash": "^4.17.15",
+		"node-sass": "^4.12.0",
+		"pg-promise": "^9.1.1",
+		"react-dom": "^16.9.0",
+		"react-helmet": "^5.2.1"
+	},
+	"homepage": "https://github.com/contentful/starter-gatsby-blog#readme",
+	"keywords": [
+		"gatsby",
+		"contentful",
+		"starter"
+	],
+	"license": "MIT",
+	"main": "n/a",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/contentful/starter-gatsby-blog.git"
+	},
+	"scripts": {
+		"dev": "gatsby develop",
+		"build": "gatsby build",
+		"heroku-postbuild": "gatsby build",
+		"serve": "gatsby serve",
+		"setup": "npm install --no-save contentful-import yargs-parser axios chalk && node ./setup.js"
+	}
+}
